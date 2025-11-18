@@ -3,6 +3,7 @@ import Home from '../pages/Home.jsx';
 import App from '../../App.jsx';
 import BadgerlyAdvice from '../BadgerlyAdvice.jsx';
 import Contact from '../pages/Contact.jsx';
+import DormLottery from '../pages/DormLottery.jsx';
 
 export default function Router() {
   return (
@@ -10,6 +11,7 @@ export default function Router() {
       <Routes>
         <Route path='/p81/' element={<BadgerlyAdvice />}>
           <Route index element={<Home />} />
+          <Route path='dormLottery' element={<DormLottery />} />
           <Route path='about' element={<App />} />
           <Route path='contact' element={<Contact />} />
         </Route>

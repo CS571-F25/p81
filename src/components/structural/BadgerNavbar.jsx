@@ -2,6 +2,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router';
 import pic from '../../assets/uw-crest.svg';
 import { FaHandHoldingHeart } from 'react-icons/fa';
+
 export default function BadgerNavbar() {
   return (
     <Navbar bg='dark' variant='dark' fixed='top' expand='sm' collapseOnSelect>
@@ -23,7 +24,7 @@ export default function BadgerNavbar() {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to='/p81/about'>
-              About
+              About Us
             </Nav.Link>
             <Nav.Link as={Link} to='/p81/contact'>
               Contact

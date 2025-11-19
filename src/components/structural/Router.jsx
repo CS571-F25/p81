@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import Home from '../../pages/Home';
-import App from '../../App.jsx';
+import About from '../../pages/About.jsx';
 import BadgerlyAdvice from '../BadgerlyAdvice.jsx';
 export default function Router() {
   return (
@@ -8,7 +8,7 @@ export default function Router() {
       <Routes>
         <Route path='/p81/' element={<BadgerlyAdvice />}>
           <Route index element={<Home />} />
-          <Route path='about' element={<App />} />
+          <Route path='about' element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>

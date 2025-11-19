@@ -1,0 +1,22 @@
+[
+  {
+    "id": "jarj",
+    "name": "Joel Ringelstetter Jr.",
+    "username": "jaringelstet",
+    "bio": "Senior in Computer Science at UW-Madison graduating in Decdember 2025. Passionate about mental health, web development, and all things user experience based.",
+    "location": "Madison, WI",
+    "skills": ["JavaScript", "React", "Node.js", "Canvas"],
+    "joined": "2021-03-15",
+    "src": "/p81/src/assets/bolby.jpg"
+  },
+  {
+    "id": "tgarski",
+    "name": "Trevor Garski",
+    "username": "tgarski",
+    "bio": "Trevor bio here!",
+    "location": "Madison, WI",
+    "skills": ["Illustration", "Figma", "Accessibility", "CSS"],
+    "joined": "2019-07-02",
+    "src": "src"
+  }
+]

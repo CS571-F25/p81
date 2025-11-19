@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-const dorms = ["Witte", "Sellery", "Barnard", "Bradley", "Slichter", "Tripp", "Van Vleck", "Smith"];
+const dorms = ["Witte", "Sellery", "Barnard", "Bradley", "Slichter", "Tripp", "Van Vleck", "Smith", "Dejope", "Phillips", "Kronshage", "Ogg", "Jorns", "Sullivan"];
 
 export default function DormLottery() {
   const [rotation, setRotation] = useState(0);
@@ -41,40 +41,23 @@ export default function DormLottery() {
           overflow: "hidden",
         }}
       >
-        {dorms.map((name, i) => {
+        {dorms.map((name, index) => {
             const sliceDeg = 360 / dorms.length;
-            const rotation = i * sliceDeg;
+            const rotation = index * sliceDeg;
 
             return (
                 <div
-                key={i}
+                key={index}
                 style={{
                     position: "absolute",
                     width: "50%",
                     height: "50%",
-                    background: i % 2 === 0 ? "#ffd35a" : "#ff9b5a",
+                    background: index % 2 === 0 ? "#ffd35a" : "#f57824ff",
                     transformOrigin: "100% 100%",
                     transform: `rotate(${rotation}deg) skewY(${90 - sliceDeg}deg)`,
                     borderRight: "1px solid #333",
                 }}
                 >
-                {/* TEXT LAYER */}
-                <div
-                    style={{
-                    position: "absolute",
-                    top: "50%",
-                    left: "100%",
-                    transform: `rotate(${sliceDeg / 2}deg)`, 
-                    transformOrigin: "0 0",
-                    width: "120px",
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                    textAlign: "center",
-                    userSelect: "none",
-                    }}
-                >
-                    {name}
-                </div>
                 </div>
             );
             })}

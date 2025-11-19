@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import CreatorCard from '../components/CreatorCard';
+import CreatorCard from '../CreatorCard';
 import './About.css';
-import creatorsJson from '../resources/creators.json';
+import creatorsJson from '../../resources/creators.json';
 function About() {
   const [creators, setCreators] = useState([]);
 

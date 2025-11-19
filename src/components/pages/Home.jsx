@@ -1,7 +1,7 @@
 import { Nav } from 'react-bootstrap';
 import './Home.css';
 import { Image } from 'react-bootstrap';
-import Bascom from '../assets/bascom.jpg';
+import Bascom from '../../assets/bascom.jpg';
 export default function Home() {
   return (
     <div className='home-container'>

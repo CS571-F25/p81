@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import Home from '../pages/Home.jsx';
-import About from '../../pages/About.jsx';
+import About from '../pages/About.jsx';
 import BadgerlyAdvice from '../BadgerlyAdvice.jsx';
 import Contact from '../pages/Contact.jsx';
 import DormLottery from '../pages/DormLottery.jsx';

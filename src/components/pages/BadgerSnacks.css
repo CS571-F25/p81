@@ -1,0 +1,13 @@
+.badger-snacks-container {
+  padding: 1.5rem 0;
+}
+
+.badger-snacks-container .col-12,
+.badger-snacks-container .col-sm-6,
+.badger-snacks-container .col-md-4,
+.badger-snacks-container .col-lg-3 {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}

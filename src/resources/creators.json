@@ -3,11 +3,11 @@
     "id": "jarj",
     "name": "Joel Ringelstetter Jr.",
     "username": "jaringelstet",
-    "bio": "Senior in Computer Science at UW-Madison graduating in Decdember 2025. Passionate about mental health, web development, and all things user experience based.",
+    "bio": "Senior in Computer Science at UW-Madison graduating in December 2025. Passionate about mental health, web development, and all things user experience based.",
     "location": "Madison, WI",
-    "skills": ["JavaScript", "React", "Node.js", "Canvas"],
+    "skills": ["JavaScript", "React", "Java", "Agile Methodologies", "Accessibility", "Vue", "Spring Boot"],
     "joined": "2021-03-15",
-    "src": "/p81/src/assets/bolby.jpg"
+    "src": "/p81/src/assets/joel.jpg"
   },
   {
     "id": "tgarski",

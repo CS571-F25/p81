@@ -1,0 +1,27 @@
+[
+  {
+    "id": "estacioninka",
+    "name": "Estacion Inka",
+    "cuisine": "Peruvian",
+    "editor_notes": "A cozy spot offering fresh roasted chicken and much more daily, with amazing workers who make you feel at home.",
+    "location": "Madison, WI",
+    "rating": 4.7,
+    "price_range": "$$",
+    "src": "https://static.spotapps.co/spots/32/8c21168afc44fb92aea14702ff8567/full",
+    "alt": "Estacion Inka Restaurant Front",
+    "link": "https://estacioninka.com/",
+    "liked": false
+  },
+  {
+    "id": "globe",
+    "name": "The Globe",
+    "cuisine": "Peruvian",
+    "editor_notes": "A cozy spot offering fresh roasted chicken and much more daily, with amazing workers who make you feel at home.",
+    "location": "Madison, WI",
+    "rating": 4.7,
+    "price_range": "$$",
+    "src": "https://static.spotapps.co/spots/32/8c21168afc44fb92aea14702ff8567/full",
+    "alt": "Estacion Inka Restaurant Front",
+    "link": "https://estacioninka.com/"
+  }
+]

@@ -21,19 +21,6 @@ export default function SnackCard(props) {
       <Card.Body className="snack-info">
         <Card.Title className="snack-name">{props.name}</Card.Title>
         <Card.Text className="snack-cuisine">{props.cuisine}</Card.Text>
-        <div className="snack-actions">
-          {/* <Button
-            variant={props.liked ? "primary" : "outline-secondary"}
-            className={`like-action-button ${props.liked ? "liked" : ""}`}
-            onClick={props.onLike}
-            size="sm"
-          >
-            👍 {props.liked ? "Liked" : "Like"}
-          </Button> */}
-          <span className="like-count">
-            {props.likes || 0} {props.likes === 1 ? "like" : "likes"}
-          </span>
-        </div>
         <div className="snack-details">
           <span className="snack-location">📍 {props.location}</span>
           <span className="snack-rating">⭐ {props.rating}</span>

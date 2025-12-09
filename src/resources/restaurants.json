@@ -10,18 +10,59 @@
     "src": "https://static.spotapps.co/spots/32/8c21168afc44fb92aea14702ff8567/full",
     "alt": "Estacion Inka Restaurant Front",
     "link": "https://estacioninka.com/",
-    "liked": false
+    "liked": false,
+    "tags": ["Full Dinner"]
   },
   {
     "id": "globe",
     "name": "The Globe",
-    "cuisine": "Peruvian",
-    "editor_notes": "A cozy spot offering fresh roasted chicken and much more daily, with amazing workers who make you feel at home.",
+    "cuisine": "Asian Fusion",
+    "editor_notes": "A chill spot with a great outdoor patio and a diverse menu that has something for everyone.",
+    "location": "Madison, WI",
+    "rating": 4.8,
+    "price_range": "$",
+    "src": "https://snworksceo.imgix.net/car/3c18179a-f205-481c-990e-9db393cb0864.sized-1000x1000.jpg?w=1000&dpr=2",
+    "alt": "The Globe Restaurant Front",
+    "link": "https://www.instagram.com/theglobeatmadison/?hl=en",
+    "tags": ["Quick Bite", "Classic"]
+  },
+  {
+    "id": "teddys",
+    "name": "Teddywedgers",
+    "cuisine": "Pasties",
+    "editor_notes": "A small takeout spot offering delicious pasties with a variety of fillings, perfect for a quick and satisfying meal.",
     "location": "Madison, WI",
     "rating": 4.7,
+    "price_range": "$",
+    "src": "https://lh3.googleusercontent.com/p/AF1QipPyd0MyCpElTNtwsZ0Pn3KDCCWr-jpYQN1dvq38=s680-w680-h510-rw",
+    "alt": "Teddywedgers Restaurant Front",
+    "link": "https://www.teddywedgers.com/",
+    "tags": ["Quick Bite", "Classic"]
+  },
+  {
+    "id": "canes",
+    "name": "Raising Cane's",
+    "cuisine": "Fast Food",
+    "editor_notes": "A popular fast-food chain known for its chicken fingers and casual dining experience.",
+    "location": "Madison, WI",
+    "rating": 4.2,
+    "price_range": "$",
+    "src": "https://madison365.com/wp-content/uploads/2021/07/218283943_604492627182641_6878807209164052247_n.jpg",
+    "alt": "Raising Cane's Restaurant Interior",
+    "link": "https://locations.raisingcanes.com/wi/madison/579-state-street",
+    "tags": ["Quick Bite", "Late Night"]
+  },
+  {
+    "id": "chens",
+    "name": "Chen's Dumpling House",
+    "cuisine": "Dumplings / Asian Cuisine",
+    "editor_notes": "A lowkey spot specializing in handmade dumplings and a variety of Asian dishes, perfect for a casual meal.",
+    "location": "Madison, WI",
+    "rating": 4.3,
     "price_range": "$$",
-    "src": "https://static.spotapps.co/spots/32/8c21168afc44fb92aea14702ff8567/full",
-    "alt": "Estacion Inka Restaurant Front",
-    "link": "https://estacioninka.com/"
+    "src": "https://img1.wsimg.com/isteam/ip/715a3579-8292-4ba7-8f75-43d7b1e7c174/chens%20dumpling%20house%20entrance.jpg/:/cr=t:20.72%25,l:0%25,w:100%25,h:66.67%25/rs=w:984,h:492",
+    "alt": "Chen's Dumpling House Restaurant Front",
+    "link": "https://chensdumplinghouse.com/",
+    "tags": ["Late Night"]
   }
 ]

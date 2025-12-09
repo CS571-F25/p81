@@ -5,10 +5,24 @@ import creatorsJson from '../../resources/creators.json';
 function About() {
   const [creators, setCreators] = useState([]);
 
-  useEffect(() => {
-    setCreators(creatorsJson);
-    // console.log(JSON.parse(creators));
+   useEffect(() => {
+    // Import all images from assets folder
+    const images = import.meta.glob('../../assets/*.{jpg,png,jpeg,svg}', { eager: true });
+    
+    const creatorsWithImages = creatorsJson.map(creator => {
+      // Extract just the filename from the JSON path
+      const filename = creator.src.split('/').pop();
+      
+      // Find matching image from glob import
+      const imageKey = Object.keys(images).find(key => key.includes(filename));
+      const imageSrc = imageKey ? images[imageKey].default : '';
+      
+      return { ...creator, src: imageSrc };
+    });
+    
+    setCreators(creatorsWithImages);
   }, []);
+  
   return (
     <div className='about-container'>
       <div className='about-header'>

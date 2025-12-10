@@ -18,11 +18,8 @@ export default function BadgerNavbar() {
           />{' '}
           Badgerly Advice <FaHandHoldingHeart />
         </Navbar.Brand>
-        <Navbar.Collapse id='responsive-navbar-nav' className='me-auto'>
+        <Navbar.Collapse id='responsive-navbar-na v' className='me-auto'>
           <Nav>
-            <Nav.Link as={Link} to='/p81/'>
-              Home
-            </Nav.Link>
             <Nav.Link as={Link} to='/p81/dormLottery'>
               Dorm Lottery
             </Nav.Link>

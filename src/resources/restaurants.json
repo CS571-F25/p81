@@ -76,20 +76,20 @@
     "src": "https://union.wisc.edu/sites/default/files/image/2024-07/Visit-MU-Exterior1-780x460.jpg",
     "alt": "Memorial Union Exterior View",
     "link": "https://union.wisc.edu/visit/memorial-union",
-    "tags": ["Quick Bite", "Study Spot"]
+    "tags": ["Study Spot"]
   },
   {
     "id": "usouth",
     "name": "Union South",
     "cuisine": "Variety",
-    "editor_notes": "A vibrant student union located at the University of Wisconsin-Madison, offering a variety of food options with a beautiful view of Lake Mendota.",
+    "editor_notes": "A student union in the heart of UW-Madison's campus, offering diverse dining options and a lively atmosphere for students to relax and socialize.",
     "location": "W Dayton St.",
     "rating": 4.6,
     "price_range": "$",
     "src": "https://union.wisc.edu/sites/default/files/image/2025-05/WI-Union-4523-_H2T4520_1_2_3_4_5_tonemapped_tall-1200x800.jpg",
     "alt": "Union South Exterior View",
     "link": "https://union.wisc.edu/visit/union-south",
-    "tags": ["Quick Bite", "Study Spot"]
+    "tags": ["Study Spot"]
   },
   {
     "id": "qq",
@@ -103,5 +103,44 @@
     "alt": "QQ Express Restaurant Front",
     "link": "https://www.qqexpresswi.com/",
     "tags": ["Quick Bite"]
+  },
+  {
+    "id": "nafnaf",
+    "name": "Naf Naf Grill",
+    "cuisine": "Middle Eastern",
+    "editor_notes": "A vibrant spot serving flavorful Middle Eastern dishes like falafel, shawarma, and hummus in a casual setting.",
+    "location": "State St",
+    "rating": 4.2,
+    "price_range": "$",
+    "src": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw1XKTHEsDsa1GJ3fF6pd0Hjc2JtuvBuw6XWWOSN_IaiaX7BmoFF5iR-GSfJWPk-pfCKF3QOyxKYaybcHc6gE0wP5w3Hk9r0Ucg71C-biZqqztOSyRLmJe7QfIBCh8yzLjWdoCb=s680-w680-h510-rw",
+    "alt": "Naf Naf Grill Restaurant Front",
+    "link": "https://www.nafnafgrill.com/",
+    "tags": ["Quick Bite", "Late Night"]
+  },
+  {
+    "id": "chebahut",
+    "name": "Cheba Hut \"Toasted\" Subs",
+    "cuisine": "Sandwiches",
+    "editor_notes": "A laid-back sandwich shop known for its unique 'toasted' subs and relaxed vibe, perfect for a casual meal with friends.",
+    "location": "Gilman St",
+    "rating": 4.2,
+    "price_range": "$",
+    "src": "https://p1.socds.net/llp/3720/photo_upload_64b59553df7ea-2023-07-17.jpg",
+    "alt": "Cheba Hut \"Toasted\" Subs Restaurant Front",
+    "link": "https://chebahut.com/locations/madisonwi/",
+    "tags": ["Quick Bite", "Late Night", "Classic"]
+  },
+  {
+    "id": "milios",
+    "name": "Milios Sandwiches",
+    "cuisine": "Sandwiches",
+    "editor_notes": "A quick service sandwich shop offering a variety of fresh and delicious sandwiches, perfect for a satisfying meal on the go.",
+    "location": "East Campus Mall",
+    "rating": 4.2,
+    "price_range": "$",
+    "src": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzancISU_LFG9WfRHo6ZfCJCoTAaybIN6kcqO-EfHPWvCF8W6jSOcQ_JnVAS91V1ucXho0YPNMRVDyS31ym7avGhJatQ2sR1LZLnkkd-m-Gn0NM_xVVJMdNB8QF8WV6oS3TCK0p=s680-w680-h510-rw",
+    "alt": "Milios Sandwiches Restaurant Front",
+    "link": "https://milios.com/stores/east-campus-mall/",
+    "tags": ["Quick Bite", "Late Night", "Classic"]
   }
 ]

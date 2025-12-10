@@ -1,5 +1,13 @@
 import { useEffect, useState } from "react";
-import { Col, Container, Image, Row, Form } from "react-bootstrap";
+import {
+  Col,
+  Container,
+  Image,
+  Row,
+  Form,
+  Button,
+  Alert,
+} from "react-bootstrap";
 import restaurantsJson from "../../resources/restaurants.json";
 import SnackCard from "../SnackCard.jsx";
 import "./BadgerSnacks.css";
@@ -27,6 +35,10 @@ export default function BadgerSnacks() {
     filteredRestaurants = restaurants.filter((r) => r.liked);
   }
 
+  function clearFavorites() {
+    localStorage.removeItem("restaurants");
+    setRestaurants(restaurantsJson);
+  }
   function handleFavorite(restaurantId) {
     console.log("Toggling favorite for restaurant ID:", restaurantId);
     const newRestaurants = restaurants.map((restaurant) => {
@@ -42,15 +54,15 @@ export default function BadgerSnacks() {
     console.log(newRestaurants);
     setRestaurants(newRestaurants);
   }
-
   return (
     <div>
       <h1>Badger Snacks</h1>
       <Container fluid className="badger-snacks-container">
-        <div className="filter-section" style={{ marginBottom: "1.5rem" }}>
+        <div className="filter-section">
           <Form.Group style={{ maxWidth: "300px" }}>
-            <Form.Label>Filter by Tag:</Form.Label>
+            <Form.Label htmlFor="tagFilter">Filter by Tag:</Form.Label>
             <Form.Select
+              id="tagFilter"
               value={selectedTag}
               onChange={(e) => setSelectedTag(e.target.value)}
             >
@@ -61,6 +73,18 @@ export default function BadgerSnacks() {
               ))}
             </Form.Select>
           </Form.Group>
+          <Button
+            className="clear-filter-button"
+            onClick={() => setSelectedTag("all")}
+          >
+            Clear Filter
+          </Button>
+          <Button
+            className="clear-filter-button"
+            onClick={() => clearFavorites()}
+          >
+            Clear Favorites
+          </Button>
         </div>
         <Row>
           {filteredRestaurants.map((restaurant) => {

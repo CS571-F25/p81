@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Career Services",
+    "description": "Get help with resumes, interviews, and job searches.",
+    "category": "Career",
+    "link": "https://careers.wisc.edu"
+  },
+  {
+    "title": "Tutoring Services",
+    "description": "Find tutoring for various subjects and courses.",
+    "category": "Academic",
+    "link": "https://tutoring.wisc.edu"
+  },
+  {
+    "title": "UHS Mental Health Services",
+    "description": "Support for mental health and well-being.",
+    "category": "Mental Health",
+    "link": "https://www.uhs.wisc.edu/mental-health/"
+  },
+  {
+    "title": "Healthy Minds Guided Meditation App",
+    "description": "UW-Madison's free meditation app to help reduce stress and improve focus.",
+    "category": "Mental Health",
+    "link": "https://hminnovations.org/"
+  },
+  {
+    "title": "GDB Cheat Sheet",
+    "description": "A comprehensive cheat sheet for GDB commands and usage.",
+    "category": "Computer Science",
+    "link": "https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf"
+  }
+]

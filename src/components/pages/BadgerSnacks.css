@@ -11,3 +11,14 @@
   display: flex;
   justify-content: center;
 }
+
+.filter-section {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.clear-filter-button {
+  margin-left: 0.5rem;
+}

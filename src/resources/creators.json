@@ -5,9 +5,18 @@
     "username": "jaringelstet",
     "bio": "Senior in Computer Science at UW-Madison graduating in December 2025. Passionate about mental health, web development, and all things user experience based.",
     "location": "Madison, WI",
-    "skills": ["JavaScript", "React", "Java", "Agile Methodologies", "Accessibility", "Vue", "Spring Boot"],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Java",
+      "Agile Methodologies",
+      "Accessibility",
+      "Vue",
+      "Spring Boot"
+    ],
     "joined": "2021-03-15",
-    "src": "/p81/src/assets/joel.jpg"
+    "src": "/p81/src/assets/joel.jpg",
+    "email": "jaringelstet@wisc.edu"
   },
   {
     "id": "tgarski",

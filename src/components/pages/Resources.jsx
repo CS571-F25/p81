@@ -30,8 +30,11 @@ export default function Resources() {
       <Container fluid className="resources-container">
         <div className="filter-section">
           <Form.Group style={{ maxWidth: "300px" }}>
-            <Form.Label>Filter by Category:</Form.Label>
+            <Form.Label htmlFor="category-select">
+              Filter by Category:
+            </Form.Label>
             <Form.Select
+              id="category-select"
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
             >

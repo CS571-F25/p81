@@ -89,8 +89,9 @@ export default function Contact() {
           <Col md={8} lg={6}>
             <Form onSubmit={handleSubmit} className="contact-form">
               <Form.Group className="mb-3">
-                <Form.Label>Send To *</Form.Label>
+                <Form.Label htmlFor="creator-select">Send To *</Form.Label>
                 <Form.Select
+                  id="creator-select"
                   name="creator"
                   value={formData.creator}
                   onChange={handleChange}
@@ -109,8 +110,9 @@ export default function Contact() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label>Your Name *</Form.Label>
+                <Form.Label htmlFor="name-input">Your Name *</Form.Label>
                 <Form.Control
+                  id="name-input"
                   type="text"
                   name="name"
                   value={formData.name}
@@ -124,8 +126,9 @@ export default function Contact() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label>Your Email *</Form.Label>
+                <Form.Label htmlFor="email-input">Your Email *</Form.Label>
                 <Form.Control
+                  id="email-input"
                   type="email"
                   name="email"
                   value={formData.email}
@@ -139,8 +142,9 @@ export default function Contact() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label>Subject *</Form.Label>
+                <Form.Label htmlFor="subject-input">Subject *</Form.Label>
                 <Form.Control
+                  id="subject-input"
                   type="text"
                   name="subject"
                   value={formData.subject}
@@ -154,10 +158,11 @@ export default function Contact() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label>Message *</Form.Label>
+                <Form.Label htmlFor="message-input">Message *</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows={5}
+                  id="message-input"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}

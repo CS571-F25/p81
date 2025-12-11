@@ -64,7 +64,7 @@ export default function BadgerSnacks() {
               If you've visited before and see fewer restaurants than expected,
               use the <strong>'Clear Favorites'</strong> button below to reset
               your local storage and see all available restaurants. Current
-              restaurant count: {restaurantsJson.length}.
+              study snacks count: {restaurantsJson.length}.
             </p>
           </Alert>
         )}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Col, Container, Row, Form, Button } from "react-bootstrap";
+import { Col, Container, Row, Form, Button, Alert } from "react-bootstrap";
 import restaurantsJson from "../../resources/restaurants.json";
 import SnackCard from "../SnackCard.jsx";
 import "./BadgerSnacks.css";
@@ -10,6 +10,7 @@ export default function BadgerSnacks() {
     restaurantsJson
   );
   const [selectedTag, setSelectedTag] = useState("all");
+  const [showAlert, setShowAlert] = useState(true);
 
   // Get all unique tags from restaurants
   const allTags = [
@@ -46,10 +47,27 @@ export default function BadgerSnacks() {
     console.log(newRestaurants);
     setRestaurants(newRestaurants);
   }
+
   return (
     <div>
       <h1>Badger Snacks and Study Spots</h1>
       <Container fluid className="badger-snacks-container">
+        {showAlert && (
+          <Alert
+            variant="info"
+            dismissible
+            onClose={() => setShowAlert(false)}
+            className="welcome-alert"
+          >
+            <Alert.Heading>👋 Welcome!</Alert.Heading>
+            <p>
+              If you've visited before and see fewer restaurants than expected,
+              use the <strong>'Clear Favorites'</strong> button below to reset
+              your local storage and see all available restaurants. Current
+              restaurant count: {restaurantsJson.length}.
+            </p>
+          </Alert>
+        )}
         <div className="filter-section">
           <Form.Group style={{ maxWidth: "300px" }}>
             <Form.Label htmlFor="tagFilter">Filter by Tag:</Form.Label>

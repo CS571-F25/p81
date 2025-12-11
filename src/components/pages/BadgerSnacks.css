@@ -19,6 +19,22 @@
   gap: 1rem;
 }
 
+.welcome-alert {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-alert .alert-heading {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.welcome-alert p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
 .clear-filter-button {
   margin-left: 0.5rem;
 }

@@ -2,6 +2,7 @@ import { Nav } from "react-bootstrap";
 import "./Home.css";
 import { Image } from "react-bootstrap";
 import Bascom from "../../assets/bascom.jpg";
+import { Link } from "react-router";
 export default function Home() {
   return (
     <div className="home-container">

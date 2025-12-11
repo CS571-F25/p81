@@ -29,9 +29,6 @@ export default function BadgerNavbar() {
             <Nav.Link as={Link} to="/p81/resources">
               Resources
             </Nav.Link>
-            <Nav.Link as={Link} to='/p81/study-spots'>
-              Study Spots
-            </Nav.Link>
             <Nav.Link as={Link} to='/p81/about'>
               About Us
             </Nav.Link>

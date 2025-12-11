@@ -6,7 +6,6 @@ import Contact from "../pages/Contact.jsx";
 import DormLottery from "../pages/DormLottery.jsx";
 import BadgerSnacks from "../pages/BadgerSnacks.jsx";
 import Resources from "../pages/Resources.jsx";
-import BadgerStudy from '../pages/BadgerStudy.jsx';
 
 export default function Router() {
   return (
@@ -19,7 +18,6 @@ export default function Router() {
           <Route path="resources" element={<Resources />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path='study-spots' element={<BadgerStudy />} />
         </Route>
       </Routes>
     </BrowserRouter>

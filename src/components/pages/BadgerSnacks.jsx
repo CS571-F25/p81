@@ -1,13 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  Col,
-  Container,
-  Image,
-  Row,
-  Form,
-  Button,
-  Alert,
-} from "react-bootstrap";
+import { Col, Container, Row, Form, Button } from "react-bootstrap";
 import restaurantsJson from "../../resources/restaurants.json";
 import SnackCard from "../SnackCard.jsx";
 import "./BadgerSnacks.css";
@@ -56,7 +48,7 @@ export default function BadgerSnacks() {
   }
   return (
     <div>
-      <h1>Badger Snacks</h1>
+      <h1>Badger Snacks and Study Spots</h1>
       <Container fluid className="badger-snacks-container">
         <div className="filter-section">
           <Form.Group style={{ maxWidth: "300px" }}>

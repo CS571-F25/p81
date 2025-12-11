@@ -33,10 +33,10 @@ export default function Home() {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/p81/about">About us</Nav.Link>
+          <Nav.Link href="/p81/about">About Us</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/p81/contact">Contact Information</Nav.Link>
+          <Nav.Link href="/p81/contact">Help Us Help You</Nav.Link>
         </Nav.Item>
       </Nav>
     </div>

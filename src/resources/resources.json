@@ -28,5 +28,35 @@
     "description": "A comprehensive cheat sheet for GDB commands and usage.",
     "category": "Computer Science",
     "link": "https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf"
+  },
+  {
+    "title": "CS Student Resources",
+    "description": "A collection of resources for computer science students at UW-Madison.",
+    "category": "Computer Science",
+    "link": "https://www.cs.wisc.edu/undergraduate-student-resources/"
+  },
+  {
+    "title": "CS Student Research Guide",
+    "description": "A collection of resources to help computer science students with research projects.",
+    "category": "Computer Science",
+    "link": "https://researchguides.library.wisc.edu/cs"
+  },
+  {
+    "title": "UW Madison Grade Distributions",
+    "description": "A resource to view historical grade distributions for UW-Madison courses.",
+    "category": "Academic",
+    "link": "https://madgrades.com/"
+  },
+  {
+    "title": "Writing Center",
+    "description": "Get assistance with writing assignments and projects.",
+    "category": "Academic",
+    "link": "https://writing.wisc.edu/"
+  },
+  {
+    "title": "CS Interview Questions",
+    "description": "A collection of common computer science interview questions and answers.",
+    "category": "Computer Science",
+    "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/computer-science-subjects-interview-questions/"
   }
 ]

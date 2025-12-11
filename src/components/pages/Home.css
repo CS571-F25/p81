@@ -3,3 +3,52 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.home-container h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.home-container h2 {
+  color: #666;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+.home-container .nav {
+  margin-top: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-container .nav-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.home-container .nav-link {
+  background: linear-gradient(135deg, #c41e3a 0%, #9b1729 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(196, 30, 58, 0.3);
+  border: none;
+  text-decoration: none;
+  display: block;
+}
+
+.home-container .nav-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(196, 30, 58, 0.4);
+  background: linear-gradient(135deg, #9b1729 0%, #7a1220 100%);
+  color: white;
+}
+
+.home-container .nav-link:active {
+  transform: translateY(-1px);
+}

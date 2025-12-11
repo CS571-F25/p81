@@ -155,5 +155,83 @@
     "alt": "Raising Cane's Restaurant Interior",
     "link": "https://locations.raisingcanes.com/wi/madison/579-state-street",
     "tags": ["Quick Bite", "Late Night"]
+  },
+  {
+    "id": "collegelib",
+    "name": "College Library",
+    "cuisine": "None",
+    "editor_notes": "The largest library on campus, perfect for studying and group work with plenty of resources available. Upper floors feature a great view of Lake Mendota.",
+    "location": "Observatory Dr",
+    "rating": 4.1,
+    "price_range": "$",
+    "src": "https://cms.library.wisc.edu/college/wp-content/uploads/sites/5/2019/07/aerial_UW_17-35mm11_6861.jpg",
+    "alt": "College Library Drone View",
+    "link": "https://www.library.wisc.edu/college/",
+    "tags": ["Study Spot"]
+  },
+  {
+    "id": "memlib",
+    "name": "Memorial Library",
+    "cuisine": "None",
+    "editor_notes": "The scariest library on campus, perfect for isolation studying and quiet work if you really need to focus. Avoid the stacks of books...",
+    "location": "State St",
+    "rating": 2.8,
+    "price_range": "$",
+    "src": "https://6amcity.brightspotcdn.com/dims4/default/6c83b74/2147483647/strip/true/crop/4032x2270+0+254/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk1-prod-sixam-city.s3.us-east-2.amazonaws.com%2Fbrightspot%2F3b%2F64%2F134614ee4a54993bf894204c77d4%2Fimg-1540.jpg",
+    "alt": "Memorial Library Street View",
+    "link": "https://www.library.wisc.edu/memorial/",
+    "tags": ["Study Spot"]
+  },
+  {
+    "id": "morg",
+    "name": "Morgridge Hall",
+    "cuisine": "None",
+    "editor_notes": "The prettiest building on campus, constructed and opened in 2025. Great for studying with lots of natural light and modern amenities. There is a cafe on the first floor as well.",
+    "location": "University Ave",
+    "rating": 4.8,
+    "price_range": "$",
+    "src": "https://cdis.wisc.edu/wp-content/uploads/2025/07/Morgridge-Hall-Exterior-1-scaled.jpg",
+    "alt": "Morgridge Hall Street View",
+    "link": "https://cdis.wisc.edu/morgridge-hall/",
+    "tags": ["Study Spot"]
+  },
+  {
+    "id": "wid",
+    "name": "Wisconsin Institute for Discovery",
+    "cuisine": "Unknown",
+    "editor_notes": "A modern public research facility on campus with collaborative spaces and innovative design, perfect for studying with a bit of noise and energy around you.",
+    "location": "Orchard St",
+    "rating": 3.8,
+    "price_range": "$",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Wisconsin_Institutes_for_Discovery.jpg/1200px-Wisconsin_Institutes_for_Discovery.jpg",
+    "alt": "Wisconsin Institute for Discovery Street View",
+    "link": "https://wid.wisc.edu/",
+    "tags": ["Study Spot"]
+  },
+  {
+    "id": "grainger",
+    "name": "Grainger Hall",
+    "cuisine": "Variety",
+    "editor_notes": "One of the best business schools in the country, with great study rooms and a cafe on the first floor. A popular spot for business students to gather and collaborate.",
+    "location": "University Ave",
+    "rating": 3.6,
+    "price_range": "$",
+    "src": "https://www.supportuw.org/wp-content/uploads/wsb_d_1080x540_2x.jpg",
+    "alt": "Grainger Hall Street View",
+    "link": "https://business.wisc.edu/about/grainger-hall/",
+    "tags": ["Study Spot"]
+  },
+  {
+    "id": "smith",
+    "name": "Smith Hall",
+    "cuisine": "Breakfast / Cafe",
+    "editor_notes": "One of the best dorms on the southeast side of campus, with a Starbucks on the first floor that serves breakfast and coffee. A popular spot for students to grab a quick bite before class.",
+    "location": "Park St",
+    "rating": 3.4,
+    "price_range": "$",
+    "src": "https://www.housing.wisc.edu/wp-content/uploads/sites/132/2017/06/2014-10-08-smith-fall-exterior-2-1500x1000.jpg",
+    "alt": "Smith Hall Street View",
+    "link": "https://www.housing.wisc.edu/undergraduate/residence-halls/smith/",
+    "tags": ["Study Spot"]
   }
 ]

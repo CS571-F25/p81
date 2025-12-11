@@ -14,26 +14,26 @@ const dorms = [
 ];
 
 const dormImages = {
-  "Adams": "/assets/Adams.png",
-  "Barnard": "/assets/Barnard.png",
-  "Bradley": "/assets/Bradley.png",
-  "Chadbourne": "/assets/Chadbourne.png",
-  "Cole": "/assets/Cole.png",
-  "Dejope": "/assets/Dejope.png",
-  "Jorns": "/assets/Jorns.png",
-  "Kronshage": "/assets/Kronshage.png",
-  "Leopold": "/assets/Leopold.png",
-  "Lowell": "/assets/Lowell.png",
-  "Merit": "/assets/Merit.png",
-  "Ogg": "/assets/Ogg.png",
-  "Phillips": "/assets/Phillips.png",
-  "Sellery": "/assets/Sellery.png",
-  "Slichter": "/assets/Slichter.png",
-  "Smith": "/assets/Smith.png",
-  "Sullivan": "/assets/Sullivan.png",
-  "Tripp": "/assets/Tripp.png",
-  "Waters": "/assets/Waters.png",
-  "Witte": "/assets/Witte.png"
+  "Adams": "/p81/assets/Adams.png",
+  "Barnard": "/p81/assets/Barnard.png",
+  "Bradley": "/p81/assets/Bradley.png",
+  "Chadbourne": "/p81/assets/Chadbourne.png",
+  "Cole": "/p81/assets/Cole.png",
+  "Dejope": "/p81/assets/Dejope.png",
+  "Jorns": "/p81/assets/Jorns.png",
+  "Kronshage": "/p81/assets/Kronshage.png",
+  "Leopold": "/p81/assets/Leopold.png",
+  "Lowell": "/p81/assets/Lowell.png",
+  "Merit": "/p81/assets/Merit.png",
+  "Ogg": "/p81/assets/Ogg.png",
+  "Phillips": "/p81/assets/Phillips.png",
+  "Sellery": "/p81/assets/Sellery.png",
+  "Slichter": "/p81/assets/Slichter.png",
+  "Smith": "/p81/assets/Smith.png",
+  "Sullivan": "/p81/assets/Sullivan.png",
+  "Tripp": "/p81/assets/Tripp.png",
+  "Waters": "/p81/assets/Waters.png",
+  "Witte": "/p81/assets/Witte.png"
 }
 
 function deg2rad(deg){ return (deg * Math.PI) / 180; }

@@ -58,5 +58,17 @@
     "description": "A collection of common computer science interview questions and answers.",
     "category": "Computer Science",
     "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/computer-science-subjects-interview-questions/"
+  },
+  {
+    "title": "Advising Resources",
+    "description": "Find advising resources for your academic journey.",
+    "category": "Academic",
+    "link": "https://advising.wisc.edu/"
+  },
+  {
+    "title": "CS Requirements and Planning",
+    "description": "Information on computer science degree requirements and academic planning at UW-Madison.",
+    "category": "Academic",
+    "link": "https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-bs/"
   }
 ]

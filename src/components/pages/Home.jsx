@@ -25,18 +25,24 @@ export default function Home() {
       {/* and here we have some quick links to the different pages  */}
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/p81/dormLottery">Dorm Lottery</Nav.Link>
+          <Nav.Link as={Link} to="/p81/dormLottery">
+            Dorm Lottery
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/p81/study-snacks">
+          <Nav.Link as={Link} to="/p81/study-snacks">
             Hungry? Try out our favorites!
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/p81/about">About Us</Nav.Link>
+          <Nav.Link as={Link} to="/p81/about">
+            About Us
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/p81/contact">Help Us Help You</Nav.Link>
+          <Nav.Link as={Link} to="/p81/contact">
+            Help Us Help You
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </div>

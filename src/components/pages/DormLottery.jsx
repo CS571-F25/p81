@@ -23,9 +23,9 @@ import { Modal, Button } from 'react-bootstrap';
 
 const COLORS = [
   "#F54927", "#FAA18F", "#C7740E", "#F7C991", "#E8D546",
-  "#F7F1BF", "#2A820C", "#58E629", "#B4ED9F", "#115B8A",
-  "#4AAFED", "#BEE2F9", "#463699", "#341f97", "#9180E0",
-  "#711C87", "#DA84F0", "#8b838bff", "#d6a8d6ff", "#DEDBDE"
+  "#F7F1BF", "#3bbe0fff", "#8de270ff", "#B4ED9F", "#289be2ff",
+  "#76b0d4ff", "#BEE2F9", "#aa40dbff", "#7b60f5ff", "#9180E0",
+  "#721c87b9", "#DA84F0", "#8b838bff", "#d6a8d6ff", "#DEDBDE"
 ];
 
 const dorms = [

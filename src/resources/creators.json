@@ -13,10 +13,10 @@
     "id": "tgarski",
     "name": "Trevor Garski",
     "username": "tgarski",
-    "bio": "Trevor bio here!",
+    "bio": "Senior majoring in Computer Science and Data Science at UW-Madison graduating in December of 2025. Passionate about sports, the outdoors, fitness, and software engineering.",
     "location": "Madison, WI",
-    "skills": ["Illustration", "Figma", "Accessibility", "CSS"],
+    "skills": ["Sports", "Hunting", "Running", "Lifting", "Software Engineering"],
     "joined": "2019-07-02",
-    "src": "src"
+    "src": "/p81/src/assets/trevor.jpg"
   }
 ]

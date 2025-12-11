@@ -109,8 +109,11 @@ export default function DormLottery(){
 
   const closeModal = () => setShowModal(false);
 
-  return (
+  return (    
     <div style={{ textAlign: "center", fontFamily: "sans-serif" }}>
+      <h1 style={{ marginBottom: "1rem", color: "#333"}}><strong>Dorm Lottery Simulator</strong></h1>
+      <br></br>
+
       {/* Wheel */}
       <div style={{ width: size, margin: "12px auto" }}>
         <div style={{ position: "relative", width: size, height: size }}>

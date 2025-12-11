@@ -19,6 +19,7 @@ import SullivanImg from '../../assets/Sullivan.png';
 import TrippImg from '../../assets/Tripp.png';
 import WatersImg from '../../assets/Waters.png';
 import WitteImg from '../../assets/Witte.png';
+import { Modal, Button } from 'react-bootstrap';
 
 const COLORS = [
   "#F54927", "#FAA18F", "#C7740E", "#F7C991", "#E8D546",
@@ -192,13 +193,14 @@ export default function DormLottery(){
         </div>
       </div>
 
-      <button
+      <Button
         onClick={onSpinClick}
         disabled={spinning}
-        style={{ marginTop: 12, padding: "10px 22px", fontSize: 16, cursor: spinning ? "not-allowed" : "pointer" }}
+        variant="primary"
+        size="lg"
       >
         {spinning ? "Spinning..." : "SPIN"}
-      </button>
+      </Button>
 
       {/* Legend */}
       <div style={{ maxWidth: 540, margin: "18px auto 0", display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
@@ -213,98 +215,23 @@ export default function DormLottery(){
       {result && <div style={{ marginTop: 12, fontWeight: 600 }}>Result: {result}</div>}
 
       {/* Celebration Modal */}
-      {showModal && (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundColor: "rgba(0,0,0,0.5)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            zIndex: 10,
-            animation: "fadeInBackdrop 0.3s ease forwards"
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: "#fff",
-              padding: "30px 24px",
-              borderRadius: 12,
-              maxWidth: 1000,
-              width: "90%",
-              textAlign: "center",
-              boxShadow: "0 10px 25px rgba(0,0,0,0.2)",
-              transform: "scale(0.8)",
-              animation: "scaleIn 0.3s forwards",
-            }}
-          >
-            <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 12 }}>🎉 Congratulations! 🎉</h2>
-            <p style={{ fontSize: 16, marginBottom: 12 }}>
-              You will be staying in: <strong>{result}</strong>. Time to find your roommates!
-            </p>
-
-            {/* Display image from src/assets */}
-            <img
-              src={dormImages[result]}
-              alt={result}
-              style={{ width: "80%", borderRadius: 8, marginBottom: 16 }}
-            />
-            <br />
-            <a
-              href={`https://www.housing.wisc.edu/undergraduate/residence-halls/${result}/`}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-block",
-                marginBottom: 16,
-                padding: "10px 18px",
-                fontSize: 14,
-                fontWeight: 600,
-                color: "#fff",
-                backgroundColor: "#3b82f6",
-                borderRadius: 8,
-                textDecoration: "none"
-              }}
-            >
-              Learn More
-            </a>
-            <br/>
-            <button
-              onClick={closeModal}
-              style={{
-                padding: "8px 16px",
-                fontSize: 14,
-                borderRadius: 8,
-                backgroundColor: "#e5e7eb",
-                border: "none",
-                fontWeight: 600,
-                cursor: "pointer",
-                transition: "background-color 0.2s",
-              }}
-              onMouseOver={e => e.currentTarget.style.backgroundColor="#d1d5db"}
-              onMouseOut={e => e.currentTarget.style.backgroundColor="#e5e7eb"}
-            >
-              Close
-            </button>
-          </div>
-
-          {/* Animations */}
-          <style>{`
-            @keyframes fadeInBackdrop {
-              from { background-color: rgba(0,0,0,0); }
-              to { background-color: rgba(0,0,0,0.5); }
-            }
-            @keyframes scaleIn {
-              from { transform: scale(0.8); opacity: 0; }
-              to { transform: scale(1); opacity: 1; }
-            }
-          `}</style>
-        </div>
-      )}
+      <Modal show={showModal} onHide={closeModal} centered size="xl">
+        <Modal.Header closeButton>
+          <Modal.Title>🎉 Congratulations! 🎉</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>You will be staying in <strong>{result}</strong>. Time to find your roommates!</p>
+          <img src={dormImages[result]} alt={result} style={{ width: "100%", borderRadius: 8 }} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={closeModal}>
+            Close
+          </Button>
+          <Button variant="primary" href={`https://www.housing.wisc.edu/undergraduate/residence-halls/${result}/`} target="_blank">
+            Learn More
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

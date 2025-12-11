@@ -1,4 +1,24 @@
 import React, { useState, useRef } from "react";
+import AdamsImg from '../../assets/Adams.png';
+import BarnardImg from '../../assets/Barnard.png';
+import BradleyImg from '../../assets/Bradley.png';
+import ChadbourneImg from '../../assets/Chadbourne.png';
+import ColeImg from '../../assets/Cole.png';
+import DejopeImg from '../../assets/Dejope.png';
+import JornsImg from '../../assets/Jorns.png';
+import KronshageImg from '../../assets/Kronshage.png';
+import LeopoldImg from '../../assets/Leopold.png';
+import LowellImg from '../../assets/Lowell.png';
+import MeritImg from '../../assets/Merit.png';
+import OggImg from '../../assets/Ogg.png';
+import PhillipsImg from '../../assets/Phillips.png';
+import SelleryImg from '../../assets/Sellery.png';
+import SlichterImg from '../../assets/Slichter.png';
+import SmithImg from '../../assets/Smith.png';
+import SullivanImg from '../../assets/Sullivan.png';
+import TrippImg from '../../assets/Tripp.png';
+import WatersImg from '../../assets/Waters.png';
+import WitteImg from '../../assets/Witte.png';
 
 const COLORS = [
   "#F54927", "#FAA18F", "#C7740E", "#F7C991", "#E8D546",
@@ -14,27 +34,27 @@ const dorms = [
 ];
 
 const dormImages = {
-  "Adams": "/p81/assets/Adams.png",
-  "Barnard": "/p81/assets/Barnard.png",
-  "Bradley": "/p81/assets/Bradley.png",
-  "Chadbourne": "/p81/assets/Chadbourne.png",
-  "Cole": "/p81/assets/Cole.png",
-  "Dejope": "/p81/assets/Dejope.png",
-  "Jorns": "/p81/assets/Jorns.png",
-  "Kronshage": "/p81/assets/Kronshage.png",
-  "Leopold": "/p81/assets/Leopold.png",
-  "Lowell": "/p81/assets/Lowell.png",
-  "Merit": "/p81/assets/Merit.png",
-  "Ogg": "/p81/assets/Ogg.png",
-  "Phillips": "/p81/assets/Phillips.png",
-  "Sellery": "/p81/assets/Sellery.png",
-  "Slichter": "/p81/assets/Slichter.png",
-  "Smith": "/p81/assets/Smith.png",
-  "Sullivan": "/p81/assets/Sullivan.png",
-  "Tripp": "/p81/assets/Tripp.png",
-  "Waters": "/p81/assets/Waters.png",
-  "Witte": "/p81/assets/Witte.png"
-}
+  Adams: AdamsImg,
+  Barnard: BarnardImg,
+  Bradley: BradleyImg,
+  Chadbourne: ChadbourneImg,
+  Cole: ColeImg,
+  Dejope: DejopeImg,
+  Jorns: JornsImg,
+  Kronshage: KronshageImg,
+  Leopold: LeopoldImg,
+  Lowell: LowellImg,
+  Merit: MeritImg,
+  Ogg: OggImg,
+  Phillips: PhillipsImg,
+  Sellery: SelleryImg,
+  Slichter: SlichterImg,
+  Smith: SmithImg,
+  Sullivan: SullivanImg,
+  Tripp: TrippImg,
+  Waters: WatersImg,
+  Witte: WitteImg,
+};
 
 function deg2rad(deg){ return (deg * Math.PI) / 180; }
 
